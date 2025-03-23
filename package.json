@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
-    "build": "vue-tsc && vite build --base=./",
-    "deploy": "gh-pages -d dist"
+    "build": "vite build --base=./",
+    "deploy": "gh-pages -d dist",
+    "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
     "vue": "^3.4.19"
